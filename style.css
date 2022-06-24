@@ -1,0 +1,37 @@
+/*ul{*/
+
+/*    display: flex;*/
+/*    list-style: none;*/
+/*    padding: 0px;*/
+/*    margin: 0;*/
+/*    margin-block-start: 0;*/
+/*    margin-block-end: 0;*/
+/*    padding-inline-start: 0;*/
+/*    justify-content: center;*/
+/*}*/
+/*li{*/
+/*    flex-basis: 4.5%;*/
+/*    box-shadow: 0px 0px 5px #d0caca;*/
+/*    margin: 0 2.5px;*/
+/*    height: 150px;*/
+/*}*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+
+}
+
+button{
+    flex-basis: 5%;
+    height: 150px;
+    margin: 0 2.5px;
+}
+
+
+.active{
+    background-color: aliceblue;
+    transform: scale(1.12);
+}
